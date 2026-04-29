@@ -1,0 +1,254 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Profile | Global Stay Hub Admin</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800" rel="stylesheet">
+        
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+        <link rel="stylesheet" href="../node_modules/ionicons/dist/css/ionicons.min.css">
+        <link rel="stylesheet" href="../node_modules/icon-kit/dist/css/iconkit.min.css">
+        <link rel="stylesheet" href="../node_modules/perfect-scrollbar/css/perfect-scrollbar.css">
+        <link rel="stylesheet" href="../dist/css/theme.min.css">
+        <script src="../src/js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+
+    <body>
+        
+        <div class="wrapper">
+            <header class="header-top" header-theme="light">
+                <div class="container-fluid">
+                    <div class="d-flex justify-content-between">
+                        <div class="top-menu d-flex align-items-center">
+                            <button type="button" class="btn-icon mobile-nav-toggle d-lg-none"><span></span></button>
+                             
+                            <button type="button" id="navbar-fullscreen" class="nav-link"><i class="ik ik-maximize"></i></button>
+                        </div>
+                        <div class="top-menu d-flex align-items-center">
+                            <div class="dropdown">
+                                
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="avatar" src="../img/portfolio-1.jpg" alt=""></a>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                                    <a class="dropdown-item" href="profile.html"><i class="ik ik-user dropdown-icon"></i> Profile</a>
+                                    
+                                    
+                                    <a class="dropdown-item" href="../logout.php"><i class="ik ik-power dropdown-icon"></i> Logout</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="page-wrap">
+                <div class="app-sidebar colored">
+                    <div class="sidebar-header">
+                        <a class="header-brand" href="index.html">
+                            <div class="logo-img">
+                               <img src="../src/img/brand-white.svg" class="header-brand-img" alt="lavalite"> 
+                            </div>
+                            <span class="text">ThemeKit</span>
+                        </a>
+                        <button type="button" class="nav-toggle"><i data-toggle="expanded" class="ik ik-toggle-right toggle-icon"></i></button>
+                        <button id="sidebarClose" class="nav-close"><i class="ik ik-x"></i></button>
+                    </div>
+                    
+                    <div class="sidebar-content">
+                        <div class="nav-container">
+                            <nav id="main-menu-navigation" class="navigation-main">
+                                <div class="nav-lavel">Admin</div>
+                                <div class="nav-item">
+                                    <a href="../adminindex.php"><i class="ik ik-bar-chart-2"></i><span>Dashboard</span></a>
+                                </div>
+                                
+                                <div class="nav-lavel">UI Element</div>
+                                <div class="nav-item has-sub">
+                                    <a href="#"><i class="ik ik-box"></i><span>Registrations</span></a>
+                                    <div class="submenu-content">
+                                        <a href="../country.php" class="menu-item">Country Registration</a>
+                                        <a href="../location.php" class="menu-item">Location Registration</a>
+                                        <a href="../district.php" class="menu-item">District Registration</a>
+                                        <a href="../city.php" class="menu-item">City Registration</a>
+                                        <a href="../university.php" class="menu-item">University Registration</a>
+                                    </div>
+                                </div>
+                                <div class="nav-item has-sub">
+                                    <a href="#"><i class="ik ik-gitlab"></i><span>Browse Details</span> </a>
+                                    <div class="submenu-content">
+                                        <a href="../countryview.php" class="menu-item">Country</a>
+                                        <a href="../locationview.php" class="menu-item">Locations</a>
+                                        <a href="../cityview.php" class="menu-item">Cities</a>
+                                        <a href="../universityview.php" class="menu-item">Universities</a>
+                                        
+                                    </div>
+                                </div>
+                                <div class="nav-item">
+                                    <a href="../houseownerview.php"><i class="ik ik-package"></i><span>House Owners List</span></a>
+                                    
+                                </div>
+
+                                <div class="nav-item">
+                                    <a href="../piechart.php"><i class="ik ik-pie-chart"></i><span>Pie Chart</span></a>
+                                </div>
+                                <div class="nav-item">
+                                    <a href="../barchart.php"><i class="ik ik-bar-chart-2"></i><span>Bar Chart</span></a>
+                                </div>
+
+                                <div class="nav-lavel">Apps</div>
+                                <div class="nav-item">
+                                    <a href="calendar.html"><i class="ik ik-calendar"></i><span>Calendar</span></a>
+                                </div>
+                                
+                                <div class="nav-item has-sub open active">
+                                    <a href="#"><i class="ik ik-file-text"></i><span>Other</span></a>
+                                    <div class="submenu-content">
+                                        <a href="profile.html" class="menu-item active">Profile</a>
+                                        
+                                </div>
+
+                                
+                                
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content">
+                    <div class="container-fluid">
+                        <div class="page-header">
+                            <div class="row align-items-end">
+                                <div class="col-lg-8">
+                                    <div class="page-header-title">
+                                        <i class="ik ik-file-text bg-blue"></i>
+                                        <div class="d-inline">
+                                            <h5>Profile</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <nav class="breadcrumb-container" aria-label="breadcrumb">
+                                        <ol class="breadcrumb">
+                                            <li class="breadcrumb-item">
+                                                <a href="../adminindex.php"><i class="ik ik-home"></i></a>
+                                            </li>
+                                            <li class="breadcrumb-item">
+                                                <a href="#">Pages</a>
+                                            </li>
+                                            <li class="breadcrumb-item active" aria-current="page">Profile</li>
+                                        </ol>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container my-5">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-5 col-md-7">
+                                <div class="card mx-auto">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="text-center"> 
+                                            <img src="../img/portfolio-1.jpg" class="rounded-circle" width="150" />
+                                            <h4 class="card-title mt-10">Merin P Eldho</h4>
+                                            <p class="card-subtitle">Admin</p>
+                                        </div>
+                                    </div>
+                                    <hr class="mb-0"> 
+                                    <div class="card-body"> 
+                                        <small class="text-muted d-block">Email address </small>
+                                        <h6>merineldho458@gmail.com</h6> 
+                                        <small class="text-muted d-block pt-10">Phone</small>
+                                        <h6>+91 8943341930</h6> 
+                                        <small class="text-muted d-block pt-10">Address</small>
+                                        <h6>SCCS Thodupuzha</h6>
+                                        
+                                        <!-- <small class="text-muted d-block pt-30">Social Profile</small>
+                                        <br/>
+                                        <button class="btn btn-icon btn-facebook"><i class="fab fa-facebook-f"></i></button>
+                                        <button class="btn btn-icon btn-twitter"><i class="fab fa-twitter"></i></button>
+                                        <button class="btn btn-icon btn-instagram"><i class="fab fa-instagram"></i></button> -->
+
+                                        
+                                            <button class="btn btn-warning" data-toggle="modal" data-target="#changePasswordModal">
+                                                <i class="ik ik-lock"></i> Change Password
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+<!-- ---------- CHAT + OTHER CONTENT REMAINS AS IT IS ---------- -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+<div class="modal fade" id="changePasswordModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Change Password</h5>
+        <button type="button" class="close" data-dismiss="modal">
+          <span>&times;</span>
+        </button>
+      </div>
+
+      <form action="change_password.php" method="post">
+        <div class="modal-body">
+
+          <div class="form-group">
+            <label>Current Password</label>
+            <input type="password" name="current_password" class="form-control" required>
+          </div>
+
+          <div class="form-group">
+            <label>New Password</label>
+            <input type="password" name="new_password" class="form-control" required>
+          </div>
+
+          <div class="form-group">
+            <label>Confirm New Password</label>
+            <input type="password" name="confirm_password" class="form-control" required>
+          </div>
+
+        </div>
+
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-primary">Update Password</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+</div>
+
+<!-- ------------------------------------------------------------- -->
+
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script>window.jQuery || document.write('<script src="../src/js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+        <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="../node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script>
+        <script src="../node_modules/screenfull/dist/screenfull.js"></script>
+        <script src="../dist/js/theme.min.js"></script>
+    </body>
+</html>
